@@ -20,8 +20,17 @@ Desktop.ini
 *.log
 *.txt
 !README.md
-# (The line above keeps README.md but ignores random log txt files)
 
 # --- SolidWorks CAM / Simulation Temp Files ---
 *.cwr
 *.sim
+
+# ignore folders created by 'colcon build'
+/build/
+/install/
+/log/
+
+# --- Python & Colcon Caches ---
+__pycache__/
+*.pyc
+.colcon/
