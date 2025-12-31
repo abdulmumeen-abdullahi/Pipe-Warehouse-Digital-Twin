@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+<!-- 5x20__05m	8x25_1m	10x20__2m	20x10__05m	25x4__1m	40x5__2m -->
+
+
+  <!-- Define joints -->
+  <xacro:rack_joint name="base_link_to_5x20__05m" parent="base_link" child="5x20__05m"
+                    xyz="0.0 0.0 0.0"/>
+
+  <xacro:rack_joint name="5x20__05m_to_8x25_1m" parent="5x20__05m" child="8x25_1m"
+                    xyz="0.0 17.5 0.0"/>
+
+  <xacro:rack_joint name="8x25_1m_to_10x20__2m" parent="8x25_1m" child="10x20__2m"
+                    xyz="0.0 23.0 0"/>
+
+  <xacro:rack_joint name="10x20__2m_to_20x10__05m" parent="10x20__2m" child="20x10__05m"
+                    xyz="0.0 35 0.0"/>
+
+  <xacro:rack_joint name="20x10__05m_to_25x4__1m" parent="20x10__05m" child="25x4__1m"
+                    xyz="0.0 25 0.0"/>
+
+  <xacro:rack_joint name="25x4__1m_to_40x5__2m" parent="25x4__1m" child="40x5__2m"
+                    xyz="0.0 40 0.0"/>
+
+
+
+  <!-- 10x20__1m	20x10__2m	25x4__0.5m	40x5__1m	5x20__2m	8x25__0.5m -->
+
+  <xacro:rack_joint name="base_link_to_10x20__1m" parent="base_link" child="10x20__1m"
+                    xyz="40.0 0.0 0.0"/>
+
+  <xacro:rack_joint name="10x20__1m_to_20x10__2m" parent="10x20__1m" child="20x10__2m"
+                    xyz="0.0 25.0 0.0"/>
+
+  <xacro:rack_joint name="20x10__2m_to_25x4__0.5m" parent="20x10__2m" child="25x4__0.5m"
+                    xyz="0.0 55 0.0"/>
+
+  <xacro:rack_joint name="25x4__0.5m_to_40x5__1m" parent="25x4__0.5m" child="40x5__1m"
+                    xyz="0.0 27.5 0.0"/>
+
+  <xacro:rack_joint name="40x5__1m_to_5x20__2m" parent="40x5__1m" child="5x20__2m"
+                    xyz="0.0 55 0.0"/>
+
+  <xacro:rack_joint name="5x20__2m_to_8x25__0.5m" parent="5x20__2m" child="8x25__0.5m"
+                    xyz="0.0 25.0 0.0"/>
+
+  <!-- 25x4__2m	40x5__0.5m 5x20__1m	8x25__2m	10x20__0.5m	20x10__1m -->
+  <xacro:rack_joint name="10x20__1m_to_25x4__2m" parent="10x20__1m" child="25x4__2m"
+                    xyz="40.0 0.0 0.0"/>
+
+  <xacro:rack_joint name="25x4__2m_to_40x5__0.5m" parent="25x4__2m" child="40x5__0.5m"
+                    xyz="0.0 65.0 0.0"/>
+
+  <xacro:rack_joint name="40x5__0.5m_to_5x20__1m" parent="40x5__0.5m" child="5x20__1m"
+                    xyz="0.0 35 0.0"/>
+
+  <xacro:rack_joint name="5x20__1m_to_8x25__2m" parent="5x20__1m" child="8x25__2m"
+                    xyz="0.0 20 0.0"/>
+
+  <xacro:rack_joint name="8x25__2m_to_10x20__0.5m" parent="8x25__2m" child="10x20__0.5m"
+                    xyz="0.0 31 0.0"/>
+
+  <xacro:rack_joint name="10x20__0.5m_to_20x10__1m" parent="10x20__0.5m" child="20x10__1m"
+                    xyz="0.0 20 0.0"/>
+
+
+</robot>

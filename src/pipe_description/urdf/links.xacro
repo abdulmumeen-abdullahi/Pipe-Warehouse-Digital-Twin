@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Define links -->
+  <xacro:pipe_rack name="5x20__05m" mesh="5x20__0.5mStl.STL"
+                  xyz="-4.5250 0 0.0" bb_xyz="5.0329 1.4943 5" y_len="2.9885" z_len="10"/>
+
+  <xacro:pipe_rack name="8x25_1m" mesh="8x25__1mStl.STL"
+                   xyz="0.0 0.0 0.0" bb_xyz="5.0 4.0 12.5" y_len="8" z_len="25"/>
+
+  <xacro:pipe_rack name="10x20__2m" mesh="10x20__2mStl.STL"
+                   xyz="0.0 0.0 0.0" bb_xyz="5.0 10 20" y_len="20" z_len="40"/>
+
+  <xacro:pipe_rack name="20x10__05m" mesh="20x10__0.5mStl.STL"
+                   xyz="0.0 0.0 0.0" bb_xyz="5.0 5.2443 2.5" y_len="10.4885" z_len="5"/>
+
+  <xacro:pipe_rack name="25x4__1m" mesh="25x4__1mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 12.5 2.0" y_len="25" z_len="4"/>
+                   
+  <xacro:pipe_rack name="40x5__2m" mesh="40x5__2mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 40 5" y_len="80" z_len="10"/>
+
+  <xacro:pipe_rack name="10x20__1m" mesh="10x20__1mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 5 10" y_len="10" z_len="20"/>
+
+  <xacro:pipe_rack name="20x10__2m" mesh="20x10__2mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 20 10" y_len="40" z_len="20"/>
+
+  <xacro:pipe_rack name="25x4__0.5m" mesh="25x4__0.5mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 6.4943 1" y_len="12.9885" z_len="2"/>
+
+  <xacro:pipe_rack name="40x5__1m" mesh="40x5__1mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 20 2.5" y_len="40" z_len="5"/>
+                   
+  <xacro:pipe_rack name="5x20__2m" mesh="5x20__2mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 5 20" y_len="10" z_len="40"/>
+
+  <xacro:pipe_rack name="8x25__0.5m" mesh="8x25__0.5mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 2.2443 6.25" y_len="4.4885" z_len="12.5"/>
+
+  <xacro:pipe_rack name="25x4__2m" mesh="25x4__2mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 25.0 4" y_len="50" z_len="8"/>
+
+  <xacro:pipe_rack name="40x5__0.5m" mesh="40x5__0.5mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 10.2443 1.25" y_len="20.4885" z_len="2.5"/>
+
+  <xacro:pipe_rack name="5x20__1m" mesh="5x20__1mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 2.5 10" y_len="5" z_len="20"/>
+                   
+  <xacro:pipe_rack name="8x25__2m" mesh="8x25__2mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 8 25" y_len="16" z_len="50"/>
+
+  <xacro:pipe_rack name="10x20__0.5m" mesh="10x20__0.5mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 2.7443 5" y_len="5.4885" z_len="10"/>
+
+  <xacro:pipe_rack name="20x10__1m" mesh="20x10__1mStl.STL"
+                   xyz="0.0 0 0.0" bb_xyz="5.0 10 5" y_len="20" z_len="10"/>
+
+</robot>
